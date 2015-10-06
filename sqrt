@@ -1,0 +1,12 @@
+_author__ = 'student'
+
+import unittest
+
+import lib
+
+class LibTest(unittest.TestCase):
+def test_sqrt(self):
+        self.assertEqual(lib.sqrt(9),3)
+        self.assertEqual(lib.sqrt(16),4)
+
+unittest.main(verbosity=2)
