@@ -1,0 +1,13 @@
+__author__ = 'student'
+
+import unittest
+
+import lib
+
+class LibTest(unittest.TestCase):
+  def test_palindrome(self):
+        self.assertEqual(lib.palindrome('rttr'),True)
+        self.assertEqual(lib.palindrome('froze'),False)
+        self.assertEqual(lib.palindrome('azza'),True)
+        
+unittest.main(verbosity=2)
