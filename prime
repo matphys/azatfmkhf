@@ -1,0 +1,12 @@
+_author__ = 'student'
+
+import unittest
+
+import lib
+
+class LibTest(unittest.TestCase):
+def test_sin(self):
+        self.assertEqual(lib.sin(3,14/6),0.5)
+        self.assertEqual(lib.sin(3,14/2),1)
+
+unittest.main(verbosity=2)
